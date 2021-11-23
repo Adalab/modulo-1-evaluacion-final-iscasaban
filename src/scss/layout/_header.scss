@@ -5,6 +5,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  @media (min-width: 1200px) {
+    object-fit: contain;
+  }
 }
 .header__title {
   font-family: $font-secondary;
@@ -14,6 +17,13 @@
   text-transform: uppercase;
   text-align: center;
   color: #fff;
+  @media (min-width: 768px) {
+    font-size: 80px;
+  }
+  @media (min-width: 1200px) {
+    font-size: 100px;
+    line-height: 1.32;
+  }
 }
 .header__text {
   font-family: $font-main;
@@ -21,4 +31,7 @@
   margin: 10px 0 45px 15px;
   text-align: center;
   color: #fff;
+  @media (min-width: 768px) {
+    font-size: 24px;
+  }
 }
