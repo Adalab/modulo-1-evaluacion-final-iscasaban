@@ -1,3 +1,24 @@
 .page__header {
-  background-image: "./src/images/cover.jpg";
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header__title {
+  font-family: $font-secondary;
+  font-size: 42px;
+  line-height: 1.31;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+.header__text {
+  font-family: $font-main;
+  font-size: 16px;
+  margin: 10px 0 45px 15px;
+  text-align: center;
+  color: #fff;
 }
