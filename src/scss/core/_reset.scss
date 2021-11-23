@@ -2,4 +2,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style: none;
+  a:link,
+  a:visited,
+  a:active {
+    text-decoration: none;
+  }
 }
