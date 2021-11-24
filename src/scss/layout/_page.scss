@@ -154,6 +154,7 @@
 .reason4 {
   grid-column: 2/3;
   grid-row: 4/5;
+  justify-self: center;
   @media (min-width: 768px) {
     grid-column: 2/3;
     grid-row: 2/3;
