@@ -75,6 +75,13 @@
     padding: 0 67px 0 68px;
   }
 }
+.insomnia__button:hover {
+  transition-delay: 0.5s;
+  background: $bright-orange;
+  color: white;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+  transition: 1s;
+}
 .reasons {
   height: 624px;
   background-color: #eff9ff;
@@ -192,4 +199,10 @@
     width: 255px;
     margin: 60px 73px 0 77px;
   }
+}
+.button__reasons:hover {
+  transition-delay: 0.5s;
+  transition: 1.5s;
+  background: $dark-grey-blue;
+  border-color: $dark-grey-blue;
 }
