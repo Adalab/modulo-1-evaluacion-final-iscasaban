@@ -199,24 +199,3 @@
   background: $dark-grey-blue;
   border-color: $dark-grey-blue;
 }
-.special {
-  display: none;
-  @media (min-width: 768px) {
-    display: block;
-    background-color: $bright-orange;
-    color: white;
-  }
-}
-.title__special {
-  font-family: $font-secondary;
-  text-align: center;
-  font-size: 18px;
-  line-height: 1.67;
-  font-weight: bold;
-  padding-top: 30px;
-}
-.items__special {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 50px;
-}
